@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.appointment-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 32px;
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-item {
+    min-width: 297px;
+    padding: 16px;
+  }
+}
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title-name {
+  color: #171f46;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .title-name {
+    font-size: 18px;
+  }
+}
+
+.star-button {
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.star-image {
+  height: 13px;
+  width: 13px;
+  align-self: center;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .star-image {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 15px;
+  }
+}
